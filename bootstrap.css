@@ -1,0 +1,67 @@
+.navbar-brand{
+    color: white;
+}
+.nav-link{
+    color: white;
+}
+li{
+    margin-left: 30px;
+}
+.navbar-brand:hover{
+    color: gray;
+}
+.nav-link:hover{
+    color: gray;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+    min-height: 900px;
+    min-width: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+ }
+ .container>div{
+     text-align: center;
+ }
+ .card{
+     border-radius: 0px;
+     box-shadow: 5px 5px 5px grey;
+}
+.btnn{
+    background-color: #d87c68;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    color: white;
+    padding: 5px;
+   }
+   .btnn:hover{
+       color: gray;
+   }
+
+   .icons{
+       padding: 2%;
+   }
+   i{
+    color: white;
+    padding: 2%;
+
+   }
+   h3{
+       text-align: center;
+       color:#d87c68 ;
+   }
+   .title{
+       margin-top: 70px;
+   }
